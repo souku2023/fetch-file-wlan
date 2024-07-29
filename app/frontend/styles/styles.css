@@ -1,0 +1,5 @@
+.page-container {
+    height:  calc(100svh - 2rem);
+    width: calc(100svw - 2rem);
+    background: green;
+}

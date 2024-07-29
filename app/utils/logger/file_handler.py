@@ -13,7 +13,7 @@ class FileHandler(logging.FileHandler):
                  ) -> None:
         """
         """
-        self.__filename = 'Nova_log_{}-{}-{}_{}-{}.log'.format(
+        self.__filename = 'Log_{}-{}-{}_{}-{}.log'.format(
             str(datetime.now().year),
             str(datetime.now().month), 
             str(datetime.now().day),

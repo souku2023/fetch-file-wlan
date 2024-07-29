@@ -161,4 +161,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Ignore python virtual environments
+# Ignore python virtual environment
+.env/
+
+# ignore nginx
+*nginx*
+nginx/
